@@ -1,3 +1,4 @@
+<?php require "camping.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +19,7 @@
       <?php echo updateResponse(help()); ?>
     <?php endif; ?>
   </div>
-  <form>
+  <form method="post">
     <input type="text" name="command" class="command" autofocus>
   </form>
   <a class="clear" href="?clear">Clear Session</a>
